@@ -1,0 +1,176 @@
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    min-height: 100vh;
+    font-weight: 600;
+    justify-content: space-between;
+    background-color: black;
+    
+    color: white;
+}
+form {
+    padding: 50px 55px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    flex-direction: row;
+    display: flex;
+    gap: 2em;
+    background-color: rgba(159, 149, 149, 0.2);
+    backdrop-filter: blur(10px);
+    opacity: 0.9;
+}
+.Cuba {
+    flex-basis: 50%; 
+    flex-grow: 0; 
+}
+
+.markitoswasaaa {
+    flex-basis: 50%; 
+    flex-grow: 0; 
+}
+
+.codigo {
+    margin: 3em 0;
+}
+.codigo h5 {
+    margin: .8em 0;
+    padding: 0;
+}
+
+.codigo div {
+    display: flex;
+    gap: 2em;
+}
+
+.codigo div label {
+    display: none;
+}
+.codigo .codigo_descuento {
+    flex-grow: 3;
+    height: 3em;
+}
+
+.codigo .button {
+    flex-grow: 2;
+}
+
+.info_precios * {
+    margin: .5em 0;
+    padding: 0;
+}
+
+.detalles_pedido {
+    margin: 3em 0;
+}
+
+.atencion_cliente {
+    margin: 3em 0;
+}
+
+.atencion_cliente * {
+    margin: 1em 0;
+}
+
+.MiInformacionInput {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.DireccionInput {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+h2 {
+    color: white;
+    font-size: 35px;
+}
+
+label {
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+select {
+    width: 200px;
+    height: 25px;
+    padding: 17px 25px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background-color: #eeeeee;
+    border: 2px solid #91789b;
+    color: black;
+    outline: none;
+}
+
+input, textarea {
+    padding: 17px 25px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background-color: #eeeeee;
+    border: 2px solid #91789b;
+    color: #283629;
+    outline: none;
+}
+
+input::placeholder, textarea::placeholder {
+    color: #91789b;
+}
+
+.form-data {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.form-data a {
+    color: #76b28e;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.btn{
+    font-size: 16px;
+    color: #a286b5;
+    border: 0;
+    border-radius: 10px;
+    background-color: #5a1a7e;
+    box-shadow: 0 0 10px #8e6aa0;
+    cursor: pointer;
+    height: 50px;
+}
+
+.btn:hover{
+background-color: rgb(148, 83, 179);
+}
+
+
+.paraapis {
+    background-color: rgba(159, 149, 149, 0.2);
+    backdrop-filter: blur(10px);
+    opacity: 0.9;    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-radius: 15px;
+    margin: 20px;
+}
+
+
+.cuadrado {
+    width: 340px;
+    height: 170px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 15px;
+    margin: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
