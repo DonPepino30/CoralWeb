@@ -174,3 +174,25 @@ background-color: rgb(148, 83, 179);
     margin: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
+
+#r27{
+    width: 51.25%;
+    height: 51.25%;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+#r28{
+    width: 50%; /* La imagen ocupará el ancho completo del div */
+    height: auto; /* Mantiene la proporción de la imagen */
+    margin: 0 auto;
+    padding: 55px;
+    border-radius: 5px; /* Bordes redondeados de la imagen */
+}
+
+#r29{
+    width: 100%; /* La imagen ocupará el ancho completo del div */
+    height: auto; /* Mantiene la proporción de la imagen */
+    margin: 0 auto;
+    border-radius: 5px; /* Bordes redondeados de la imagen */
+}
